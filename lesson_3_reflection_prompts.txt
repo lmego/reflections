@@ -1,1 +1,5 @@
 When would you want to create a remote repository rather than keeping all your work local?
+   This would be best in cases where we would like to work collaboratively with other developers
+   Also, it is usefull to keep a copy of the code online to be able to access it from anywhere
+   Finally, it creates an external backup of the code which may come in handy if local files are
+   lost or become corrupted.
