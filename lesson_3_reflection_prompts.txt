@@ -9,3 +9,18 @@ with your remote repository?
 	To retain control of the changes being made, while they are being made. Otherwise, code  added by 
 	other remote users may affect the changes that a local user may be working on, therefore, rendering
 	those changes useless.
+		
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	Fork: Creates a copy of an existing public repository in GitHub to a users' own GIThub account. This
+	allows the user to make and store changes and commits to his own remote copy of the repository. As he 
+	most likely will not have the permissions to make changes on the original repository.
+	
+	Clone: Makes a copy of GIThub repository to a users local computer. It then links the local repository
+	to the remote repository from which the information was clone, in order to be able to continue to pull
+	and or push changes to/from the remote repository. It can also be used to create a local copy of the 
+	entire repository
+	
+	Branch: Creates a snapshot in time of all the files in the repository and a secondary "path" on which
+	changes can be made and committed in the existing repository. Any changes made in a secondary branch
+	do not impact those made on the "master" branch. Therefore it is very useful to implement test or 
+	experimental feature without affecting the main code.
