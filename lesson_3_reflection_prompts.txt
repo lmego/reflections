@@ -24,3 +24,7 @@ Describe the differences between forks, clones, and branches. When would you use
 	changes can be made and committed in the existing repository. Any changes made in a secondary branch
 	do not impact those made on the "master" branch. Therefore it is very useful to implement test or 
 	experimental feature without affecting the main code.
+	
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	It allows us to do compare changes made to the local files against the last know state of the remote 
+	while working offline.
